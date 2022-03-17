@@ -15,13 +15,13 @@ const ShipDetails = (props) => {
 
   return (
     <>
-    <div class="icon-container" >
+    <div className="icon-container" >
       <div id="classDiv">
         {shipDetails.name ?
         <>
           <p>NAME: {shipDetails.name}</p>
           <p> MODEL: {shipDetails.model}</p>
-          <Link to="/starship" style={{textDecoration: 'none'}}>
+          <Link to="/starship" style={{textDecoration: 'none', color: 'white'}}>
             RETURN
           </Link>
         </>

@@ -7,7 +7,7 @@ import './App.css';
 
 function App() {
   const [navItems, setNavItems] = useState([
-    {name: 'Star Wars Starships'},
+    {name: 'STAR WARS STARSHIPS'},
   ])
 
   return (
